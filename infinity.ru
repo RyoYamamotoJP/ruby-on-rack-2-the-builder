@@ -1,4 +1,4 @@
-infinity = proc { |env| [200, { "Content-Type" => "text/html" }, [env.inspect]]}
+infinity = proc { |env| [200, { "Content-Type" => "text/html" }, [env.inspect]] }
 
 use Rack::CommonLogger
 
